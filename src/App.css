@@ -1,7 +1,21 @@
 *{
   margin: 0;
   padding: 0;
+  border: none;
+
+  box-sizing: border-box;
 }
 .app {
+  width: 100vw;
+  height: 100vh;
+  max-height: 100%;
+  max-width: 100%;
+  overflow: hidden;
+}
+.canvas {
   background-color: aqua;
+  border: none;
+
+  min-height: 100%;
+  min-width: 100%;
 }
